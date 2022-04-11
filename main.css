@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 25px;
+    color: white;
+    font-family: system-ui;
+    letter-spacing: 1.25px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+div.container {
+    margin: 50px auto;
+    max-width: 500px;
+}
+
+h1#title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
